@@ -1,0 +1,37 @@
+Understanding SPECKit Plus
+SPECKit Plus ek advanced AI prompting framework hai jo developers aur large language model (LLM) coding agents jaise Copilot, Claude Code, aur Gemini CLI ke beech collaboration ko streamline karta hai.It uses Specification-Driven Development with Reusable Intelligence (SDD-RI), a methodology that ensures AI-generated code is consistent, traceable, and aligned with project standards.
+
+The core philosophy of SPECKit Plus is the Two-Output Philosophy: every feature should produce both Working Code and Reusable Intelligence. Developers first define project rules, architecture, and requirements in a structured specification. The AI then generates code based on these specifications, producing outputs that are standard-compliant, well-documented, and reusable for future development.
+
+Note: “Reusable Intelligence” ka matlab hai ke AI se generated knowledge future projects me bhi easily use ho sakti hai.
+
+Key Concepts of SPECKit Plus
+
+The workflow of SPECKit Plus is organized around five main slash commands, each representing a step in the SDD-RI process:
+
+1️ /constitution
+
+Purpose: Define Project-Wide Standards
+This command creates the Constitution file (constitution.md), which outlines the project’s guiding principles. These include architectural choices, accessibility requirements, and performance standards. Yani ke yeh file project ka rulebook hai jo har specification aur code ke liye base provide karti hai.
+
+2️ /specify
+
+Purpose: Create High-Level Feature Specifications
+The /specify command captures new feature ideas as formal high-level specifications (Specs). Developers describe what the feature should achieve from a user perspective, without specifying technical implementation details. This Spec becomes the single source of truth for the feature.
+
+3️ /plan
+
+Purpose: Develop a Technical Plan
+Using the Spec and Constitution, the /plan command instructs the AI to generate a detailed Technical Plan. It includes architecture decisions, required tools/libraries, and the overall strategy for implementation. Yani ke yeh roadmap ke jaise guide karta hai ke feature kaise build hoga.
+
+4️ /tasks
+
+Purpose: Break Down Work into Actionable Steps
+The /tasks command decomposes the Technical Plan into small, actionable tasks. Each task is verifiable and executable by the AI or developer. Is step se ensure hota hai ke AI code correctly aur efficiently generate kare.
+
+5️ /implement
+
+Purpose: Execute Tasks with AI Collaboration
+Finally, the /implement command directs the AI to write the actual code following the Tasks, Plan, and Constitution. This ensures the output is correct, consistent, and compliant with project standards, while also producing clear documentation for future use.
+
+Prepared by: Khalil ur Rehman
